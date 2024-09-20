@@ -497,7 +497,7 @@ input {
 @media all and (max-width:991px) {
 .navbar .navbar-collapse {
 	overflow: auto;
-	background:  rgb(213, 198, 221);
+	background: rgb(3 185 176 / 89%);
 	color: #fff !important;
 	text-align: center;
 	padding: 10px 0;
@@ -509,10 +509,23 @@ input {
 	margin-bottom:20px;
 }
 }
+
+.logo-1{
+	height: 60px;
+    width: 350px;
+	filter: drop-shadow(0px 2px 0px white);
+}
+
 @media all and (max-width:768px) {
+
+.logo-1{
+	height: 35px;
+	width: 200px;
+}
+
 .nav-scroll .navbar-brand img, .navbar-brand img {
-	transform: scale(0.75) !important;
-	-webkit-transform: scale(0.75) !important;
+	transform: scale(0.90) !important;
+	-webkit-transform: scale(0.90) !important;
 }
 .banner-text {
 	padding-right: 0px;
@@ -602,11 +615,7 @@ h3 {
 }
 }
 
-.logo-1{
-	height: 60px;
-    width: 350px;
-	filter: drop-shadow(0px 2px 0px white);
-}
+
 
 .aboutus-ol li{
 	margin:0px 0px 18px;
